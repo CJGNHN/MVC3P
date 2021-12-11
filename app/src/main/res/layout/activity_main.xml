@@ -8,20 +8,20 @@
     tools:context=".MainActivity">
 
     <Button
-        android:id="@+id/btn2"
+        android:id="@+id/btn1"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="Button"
+        android:text="Contador 1"
         app:backgroundTint="#ef9a9a" />
 
     <Button
-        android:id="@+id/btn1"
+        android:id="@+id/btn2"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_centerHorizontal="true"
         android:layout_centerVertical="true"
         android:drawablePadding="8dp"
-        android:text="Button"
+        android:text="Contador 2"
         android:textColor="@android:color/white"
         app:backgroundTint="#4B0082" />
 
@@ -29,13 +29,13 @@
         android:id="@+id/btn3"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="Button"
+        android:text="Contador 3"
         app:backgroundTint="#FF4081" />
 
     <Button
         android:id="@+id/btn4"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="Button"
+        android:text="Contador 4"
         app:backgroundTint="#0000FF" />
 </LinearLayout>

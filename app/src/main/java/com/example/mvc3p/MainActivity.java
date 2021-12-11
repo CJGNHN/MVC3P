@@ -68,9 +68,9 @@ public class MainActivity extends AppCompatActivity implements Observer, View.On
     @Override
     public void update(Observable o, Object arg) {
 
-        btn1.setText("contador ;" + contador.ObtenerValorIndice(0));
-        btn2.setText("contador ;" + contador.ObtenerValorIndice(1));
-        btn3.setText("contador ;" + contador.ObtenerValorIndice(2));
-        btn4.setText("contador ;"+ contador.ObtenerValorIndice(3));
+        btn1.setText("contador 1 = " + contador.ObtenerValorIndice(0));
+        btn2.setText("contador 2 = " + contador.ObtenerValorIndice(1));
+        btn3.setText("contador 3 = " + contador.ObtenerValorIndice(2));
+        btn4.setText("contador 4 = "+ contador.ObtenerValorIndice(3));
     }
 }
